@@ -19,6 +19,9 @@ header {
     font-family: 'Dancing Script', cursive;
     width: 500px;
     height: 700px;
+    min-height: 150px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     padding-top: 50px;
     border-radius: 10px 10px 10px 10px;
