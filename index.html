@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuzin hoje ?</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>CUZIN HOJE ?</h1>
+
+        <a href="https://www.youtube.com/watch?v=79OMRUdkaFk&ab_channel=SexydivilEule"><button id="sim">Sim ! </button></a>
+
+        <button onmouseover="fuja ()" id="nao">Não ! </button>
+
+        <h2 id="coracao">
+            <img src="coracao.png" alt="">
+        </h2>
+
+    </header>
+    
+    <script>
+        function fuja () {
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+        }
+    </script>
+</body>
+</html>

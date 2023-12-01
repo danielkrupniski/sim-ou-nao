@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(158, 8, 8);
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(226, 28, 28);
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    padding-top: 50px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
+    display: block;
+    border: 3px solid red;
+    box-shadow: 0 0 25px red;
+}
+
+header > h1 {
+    font-size: 4em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.603);
+}
+
+#sim {
+    height: 40px;
+    width: 60px;
+    background-color: rgb(255, 36, 36);
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+    border-radius: 10px;
+    color: white;
+    margin-left: -90px;
+    margin-top: 500px;
+}
+
+#sim:hover {
+    background-color: rgb(255, 125, 125);
+    cursor: pointer;
+}
+
+#nao {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(255, 36, 36);
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+    border-radius: 10px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 500px;
+}
+
+#nao:hover {
+    background-color: rgb(255,125,125);
+    cursor: pointer;
+}
+
+h2#coracao {
+    margin-top: -450px;
+}
